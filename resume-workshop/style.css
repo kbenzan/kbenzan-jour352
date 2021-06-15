@@ -17,10 +17,16 @@ body {
   margin: 0 auto;
 }
 
-strong {
+#title {
   text-transform: uppercase;
   color: #33485e;
   font-size: 1.5em;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
 }
 
 .sectionheader {
