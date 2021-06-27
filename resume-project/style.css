@@ -50,6 +50,7 @@ footer {
   height: 50%;
   position: relative;
   text-align: center;
+  filter: brightness(55%);
 }
 
 #headshot {
