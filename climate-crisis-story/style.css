@@ -114,6 +114,18 @@ footer {
   font-size: .5em;
   font-weight: 100;
 }
+
+.sidebar {
+  height: 50%;
+  width: 160px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-top: 20px;
+  z-index: 1;
+  background-color: black;
+  color: #f23030;
+}
 @media (max-width: 800px){
   .hero-head {
     font-size: 1.5em;
