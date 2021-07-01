@@ -1,61 +1,121 @@
 #headline {
-  font-size: 3em;
+  font-size: 1.5em;
   font-weight: 700;
-  text-align: center;
+  text-align: left;
   font-family: 'Montserrat', sans-serif;
+  color: #f23030;
+  padding: 5px;
 }
 
 #byline {
   font-size: 1em;
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
-  text-align: center;
+  text-align: left;
 }
 
 .chapter {
   font-size: 2em;
   font-family: 'Montserrat', sans-serif;
   text-align: left;
-  text-transform: bold;
+  font-weight: 600;
+  color: #f23030;
 }
 
 p {
   font-size: 1em;
-  font-family: Georgia, serif;
+  font-family: 'Georgia', serif;
   line-height: 180%;
+  color: black;
+  text-align: left;
 }
 
 .image {
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  width: 51%;
-  height: 50%;
+  margin: 0 auto;
+  width: 100%;
+  padding-bottom: 5px;
 }
 
 #caption {
   font-size: .75em;
   color: grey;
-  font-family: Georgia, serif;
-  width: 62%;
+  font-family: 'Georgia', serif;
+  width: 100%;
   padding-bottom: .5em;
-  text-align: center;
 }
 
 footer {
   font-size: 1em;
   background-color: black;
-  color: white;
+  color: #f23030;
   font-family: 'Montserrat', sans-serif;
   text-align: center;
   padding: 10px;
 }
 
-.row {
-  text-align: center;
+.nav-top {
+  color: #f23030;
+  margin: 0 auto;
+  text-transform: uppercase;
+  font-weight: 700;
 }
 
-.col-md-4 {
-  line-height: normal;
-  padding-bottom: 50px;
+.hero-container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.hero-image {
+  width: 100%;
+  padding-bottom:5px;
+}
+
+.overlay {
+  position: absolute;
+  top: 3%;
+  width: 100%;
+  background-color: black;
+  opacity: 70%;
+}
+
+.hero-head {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 5em;
+  color: white;
+  margin: 0 auto;
+  padding: 10px;
+  font-weight: 500;
+}
+
+.hero-subh {
+  font-family: 'Georgia', sans-serif;
+  font-size: .35em;
+}
+
+.end {
+  font-family: 'Georgia', sans-serif;
+  font-style: italic;
+  font-size: .75em;
+  color: grey;
+}
+
+.quote {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2em;
+  font-weight: 500;
+  color: #f23030;
+  text-align: center;
+  padding: 20px 0 20px 0;
+}
+
+.quote-attribution {
+  font-family: 'Montserrat', sans-serif;
+  font-size: .5em;
+  font-weight: 100;
+}
+@media (max-width: 800px){
+  .hero-head {
+    font-size: 1.5em;
+  }
 }
