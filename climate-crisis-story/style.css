@@ -116,16 +116,29 @@ footer {
 }
 
 .sidebar {
-  height: 50%;
-  width: 160px;
-  position: fixed;
+  height: 100%;
+  width: 225px;
+  position: absolute;
   top: 0;
   left: 0;
   padding-top: 20px;
-  z-index: 1;
   background-color: black;
   color: #f23030;
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
 }
+
+span {
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+}
+
+.container {
+  width: 65%;
+}
+
 @media (max-width: 800px){
   .hero-head {
     font-size: 1.5em;
