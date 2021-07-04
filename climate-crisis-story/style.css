@@ -115,28 +115,33 @@ footer {
   font-weight: 100;
 }
 
-.sidebar {
-  height: 100%;
-  width: 225px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  padding-top: 20px;
+.col-md-3 {
   background-color: black;
   color: #f23030;
+  font-size: .75em;
+  font-family: 'Georgia', sans-serif;
   text-align: left;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1em;
+  padding: 7px;
 }
 
+.col-md-9 {
+  text-align: left;
+  line-height: normal;
+}
+
+.row {
+  text-align: center;
+}
+
+spans {
+  color: #f23030;
+  font-size: 4em;
+  font-weight: 700;
+}
 span {
   font-weight: 700;
   font-family: 'Montserrat', sans-serif;
   font-size: 1em;
-}
-
-.container {
-  width: 65%;
 }
 
 @media (max-width: 800px){
