@@ -127,6 +127,14 @@ footer {
   padding-bottom: 10px;
 }
 
+#hover:hover {
+  background-color: yellow;
+}
+
+#visited:visited {
+  color: purple;
+}
+
 spans {
   color: #f23030;
   font-size: 4em;
