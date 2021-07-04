@@ -115,22 +115,16 @@ footer {
   font-weight: 100;
 }
 
-.col-md-3 {
+.col-md-4 {
   background-color: black;
   color: #f23030;
   font-size: .75em;
   font-family: 'Georgia', sans-serif;
   text-align: left;
-  padding: 7px;
-}
-
-.col-md-9 {
-  text-align: left;
-  line-height: normal;
 }
 
 .row {
-  text-align: center;
+  padding-bottom: 10px;
 }
 
 spans {
