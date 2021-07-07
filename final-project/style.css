@@ -67,3 +67,26 @@ p {
   width: 100%;
   padding-bottom: .5em;
 }
+
+footer {
+  font-size: 1em;
+  background-color: black;
+  color: yellow;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  padding: 10px;
+  width: 100%
+}
+
+.end {
+  font-family: 'Georgia', sans-serif;
+  font-style: italic;
+  font-size: .75em;
+  color: grey;
+}
+
+spans {
+  color: #1355A1;
+  font-size: 4em;
+  font-weight: 500;
+}
