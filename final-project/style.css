@@ -103,3 +103,9 @@ spans {
   font-style: italic;
   padding-bottom: 10px;
 }
+
+#pie {
+  width: 60%;
+  height: 60%;
+  margin: 0 auto;
+}
