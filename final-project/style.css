@@ -109,3 +109,9 @@ spans {
   height: 60%;
   margin: 0 auto;
 }
+
+@media (max-width: 991px){
+  .col-md-4 {
+    font-size: .75em;
+  }
+}
