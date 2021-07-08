@@ -52,10 +52,17 @@ p {
 
 .col-md-4 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 1.75em;
   font-weight: 500;
   color: #1355A1;
   padding: 0 15px 0 15px;
+}
+
+#first-quote {
+  font-size: 1.85em;
+}
+
+#second-quote {
+  font-size: 1.75em;
 }
 
 #caption {
@@ -91,7 +98,8 @@ spans {
 
 .quote-attribution {
   font-size: .5em;
-  line-height: 10px;
+  line-height: 20px;
   color: Black;
   font-style: italic;
+  padding-bottom: 10px;
 }
