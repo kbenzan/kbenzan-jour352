@@ -91,7 +91,7 @@ spans {
 
 .quote-attribution {
   font-size: .5em;
-  line-height: 1px;
+  line-height: 10px;
   color: Black;
   font-style: italic;
 }
