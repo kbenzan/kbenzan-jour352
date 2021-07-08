@@ -19,8 +19,6 @@ img {
   text-align: center;
 }
 
-/* image full width of site? */
-
 #place {
   color: red;
   font-size: .75em;
@@ -89,4 +87,11 @@ spans {
   color: #1355A1;
   font-size: 4em;
   font-weight: 500;
+}
+
+.quote-attribution {
+  font-size: .5em;
+  line-height: normal;
+  color: Black;
+  font-style: italic;
 }
